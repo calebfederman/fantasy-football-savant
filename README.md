@@ -1,6 +1,6 @@
-# NFL Player Lollipop Visualization Project
+# Fantasy Football Savant
 
-This project visualizes NFL player data using lollipop charts. The goal is to present key metrics for different positions (QB, RB, WR, TE) in an intuitive and visually appealing way, inspired by Baseball Savant's visualization style.
+Fantasy Football Savant is a project that aims to recreate the visual experience of Baseball Savant but for fantasy football. The first step in this journey is building intuitive lollipop chart visualizations that highlight key player metrics for different positions (QB, RB, WR, TE). These visualizations provide a clean and concise way to evaluate player performance and compare metrics at a glance.
 
 ---
 
@@ -8,8 +8,10 @@ This project visualizes NFL player data using lollipop charts. The goal is to pr
 
 - **Data Fetching**: Fetches seasonal and player information data using `nfl-data-py`.
 - **Data Preprocessing**: Calculates key metrics and percentiles based on qualifying players.
-- **Position Profiles**: Defines position-specific player profiles (e.g., QB, RB) to organize data and generate insights.
+- **Position Profiles**: Defines position-specific player profiles (e.g., QB, RB, WR, TE) to organize data and generate insights.
 - **Lollipop Charts**: Creates lollipop visualizations for easy comparison of player performance metrics.
+
+The project aims to expand beyond lollipop charts to include additional visualization types and analytical tools, providing deeper insights into fantasy football performance metrics.
 
 ---
 
@@ -17,7 +19,6 @@ This project visualizes NFL player data using lollipop charts. The goal is to pr
 
 ```
 .
-├── .venv/                 # Virtual environment directory
 ├── data/                  # Raw and processed data
 │   ├── raw/               # Raw data files
 │   ├── processed/         # Processed data files
@@ -28,7 +29,7 @@ This project visualizes NFL player data using lollipop charts. The goal is to pr
 │   ├── metrics_utils.py   # Utility functions for metric calculations
 │   ├── lollipop_chart.py  # Functions for generating lollipop charts
 │   ├── main.py            # Entry point for the project
-├── README.txt             # Project overview and instructions
+├── README.md              # Project overview and instructions
 ├── requirements.txt       # Python dependencies
 ```
 
@@ -43,17 +44,20 @@ This project visualizes NFL player data using lollipop charts. The goal is to pr
 ## Installation Instructions
 
 1. **Clone the Repository**:
+
    ```bash
-   git clone <repository_url>
-   cd <repository_name>
+   git clone https://github.com/calebfederman/FantasyFootballSavant.git
+   cd FantasyFootballSavant
    ```
 
 2. **Set Up Virtual Environment**:
+
    ```bash
    python -m venv .venv
    ```
 
 3. **Activate Virtual Environment**:
+
    - **Windows**:
      ```bash
      .\.venv\Scripts\activate
@@ -64,6 +68,7 @@ This project visualizes NFL player data using lollipop charts. The goal is to pr
      ```
 
 4. **Install Dependencies**:
+
    ```bash
    pip install -r requirements.txt
    ```
@@ -73,22 +78,27 @@ This project visualizes NFL player data using lollipop charts. The goal is to pr
 ## Running the Project
 
 1. **Run the Main Script**:
+
    ```bash
    python src/main.py
    ```
 
-2. **Enter Player ID**:
-   When prompted, enter the desired player's ID to generate a lollipop chart visualization.
+2. **Enter Player ID**: When prompted, enter the desired player's ID (ex. 00-002459 for Aaron Rodgers) to generate a lollipop chart visualization. You can find the player ID's in the processed data once the preprocessing step is complete.
 
 ---
 
-## Example Visualization
+## Example Visualizations
 
-Below is a sample lollipop chart generated for an NFL quarterback:
+Below are sample lollipop charts generated for NFL players:
 
-![Lollipop Visualization Example](lollipop_visualization.png)
+<div style="display: flex; justify-content: space-around; align-items: center;">
+    <img src="./examples/example_visualization1.jpg" alt="Lollipop Chart Example 1" width="45%">
+    <img src="./examples/example_visualization2.jpg" alt="Lollipop Chart Example 2" width="45%">
+</div>
+
 
 ---
+
 
 ## Acknowledgments
 
