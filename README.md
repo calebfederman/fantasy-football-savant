@@ -20,7 +20,7 @@ Below are sample lollipop charts generated for NFL players:
 - **Data Fetching**: Fetches seasonal and player information data using `nfl-data-py`.
 - **Data Preprocessing**: Calculates key metrics and percentiles based on qualifying players.
 - **Position Profiles**: Defines position-specific player profiles (e.g., QB, RB, WR, TE) to organize data and generate insights.
-- **Lollipop Charts**: Creates lollipop visualizations for easy comparison of player performance metrics.
+- **Lollipop Charts**: Creates lollipop visualizations for easy comparison of player performance metrics using Matplotlib.
 
 ---
 
