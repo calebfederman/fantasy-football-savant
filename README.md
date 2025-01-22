@@ -55,8 +55,8 @@ Below are sample lollipop charts generated for NFL players:
 1. **Clone the Repository**:
 
    ```bash
-   git clone https://github.com/calebfederman/FantasyFootballSavant.git
-   cd FantasyFootballSavant
+   git clone https://github.com/calebfederman/fantasy-football-savant.git
+   cd fantasty-football-savant
    ```
 
 2. **Set Up Virtual Environment**:
