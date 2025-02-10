@@ -92,7 +92,7 @@ Below are sample lollipop charts generated for NFL players:
    python src/main.py
    ```
 
-2. **Enter Player ID**: When prompted, enter the desired player's ID (ex. 00-002459 for Aaron Rodgers) to generate a lollipop chart visualization. You can find the player ID's in the processed data once the preprocessing step is complete.
+2. **Enter Player ID**: When prompted, enter the desired player's ID (ex. 00-0023459 for Aaron Rodgers) to generate a lollipop chart visualization. You can find the player ID's in the processed data once the preprocessing step is complete.
 
 ---
 
